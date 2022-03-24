@@ -23,10 +23,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║│
 ║╭─❉〘 𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 〙❉─
 ║│➸ 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁¹
-║│➸ https://tinyurl.com/y7xymnkd
+║│➸ https://tinyurl.com/wn98ayy3
 ║│
 ║│➸ 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁²
-║│➸ https://tinyurl.com/yc92fva7
+║│➸ https://tinyurl.com/yeykfs8j
 ║│
 ║│ ${readMore}
 ║╭─❉〘 𝐏𝐑𝐈𝐕𝐀𝐂𝐘 𝐁𝐎𝐓 〙❉─
@@ -41,7 +41,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║│➸ *ANDA DI DATABASE KAMI*
 ║╰─────────
 ╰═════════════════`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©LynXzy💌', 'Owner', '.owner', 'Menu', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©dityabotz💌', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['infobot']
 handler.tags = ['info']
