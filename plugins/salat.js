@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     if (!text) return m.reply(`contoh:\n${usedPrefix + command} jakarta`)
-    let res = await fetch(`https://api.lolhuman.xyz/api/sholat/${text}?apikey=rey2k21`)
+    let res = await fetch(`https://api.lolhuman.xyz/api/sholat/${text}?apikey=bca5b104e231d4708ce6dfa8`)
     if (!res.ok) throw await `${res.status} ${res.statusText}`
     let json = await res.json()
     if (!json.status) {
